@@ -1,0 +1,16 @@
+{
+  "title": "GitHub Buttons on Mobile",
+  "name": "github-buttons-mobile",
+  "version": "0.0.1",
+  "description": "A Firefox addon to add \"watch\" and \"star\" buttons to the mobile version of GitHub.",
+  "main": "index.js",
+  "author": "Sean Yeh",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
