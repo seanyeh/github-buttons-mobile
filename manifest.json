@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "github-buttons-mobile",
+  "version": "0.0.4",
+
+  "description": "A Firefox addon to add \"watch\" and \"star\" buttons to the mobile version of GitHub.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["data/inject.js"]
+    }
+  ]
+}
