@@ -23,17 +23,17 @@ function createAnchor(name, text, count, url, d) {
 
 
     let svg = document.createElementNS(NS, "svg");
-    svg.setAttributeNS(null, "class", "octicon octicon-" + name);
-    svg.setAttributeNS(null, "viewBox", "0 0 14 16");
-    svg.setAttributeNS(null, "version", "1.1");
-    svg.setAttributeNS(null, "width", "24");
-    svg.setAttributeNS(null, "height", "16");
-    svg.setAttributeNS(null, "aria-hidden", "true");
+    svg.setAttribute("class", "octicon octicon-" + name);
+    svg.setAttribute("viewBox", "0 0 14 16");
+    svg.setAttribute("version", "1.1");
+    svg.setAttribute("width", "24");
+    svg.setAttribute("height", "16");
+    svg.setAttribute("aria-hidden", "true");
 
 
     let path = document.createElementNS(NS, "path");
-    path.setAttributeNS(null,"fill-rule", "evenodd");
-    path.setAttributeNS(null,"d", d);
+    path.setAttribute("fill-rule", "evenodd");
+    path.setAttribute("d", d);
 
     svg.appendChild(path);
 
